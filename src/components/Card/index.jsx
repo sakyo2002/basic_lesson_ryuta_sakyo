@@ -3,7 +3,7 @@ import './index.css'
 
 export const Card = () => {
   return (
-    <div className="card"></div>
+    <div className='card'></div>
   )
 }
 
