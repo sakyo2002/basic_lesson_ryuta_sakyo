@@ -1,2 +1,2 @@
 import reactLogo from './assets/react.svg'
-import './App.css'
+import styles from './App.module.css'

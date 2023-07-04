@@ -1,4 +1,4 @@
-input {
+.input {
   background-color: rgb(235 236 240);
   border: none;
   border-radius: 2rem;
@@ -6,6 +6,6 @@ input {
   padding: 0.8rem;
 }
 
-input:focus {
+.input:focus {
   outline: none;
 }

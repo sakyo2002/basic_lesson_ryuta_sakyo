@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
-import './index.css'
+import styles from './index.module.css'
 
 export const Card = () => {
   return (
-    <div className='card'></div>
+    <div className={styles.card}></div>
   )
 }
 

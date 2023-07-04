@@ -1,4 +1,4 @@
-import './index.css'
+import styles from './index.module.css'
 
 export const LanguageList = () => {
   const languages = [
@@ -8,16 +8,16 @@ export const LanguageList = () => {
   ]
 
   return (
-    <ul className='language-item-wrapper'>
-      <li className='language-item'>
+    <ul className={styles.wrapper}>
+      <li className={styles.item}>
         <img src={languages[0].imgUrl} />
         <p>{languages[0].name}</p>
       </li>
-      <li className='language-item'>
+      <li className={styles.item}>
         <img src={languages[1].imgUrl} />
         <p>{languages[1].name}</p>
       </li>
-      <li className='language-item'>
+      <li className={styles.item}>
         <img src={languages[2].imgUrl} />
         <p>{languages[2].name}</p>
       </li>

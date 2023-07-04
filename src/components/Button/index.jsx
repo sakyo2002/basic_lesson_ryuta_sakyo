@@ -1,7 +1,7 @@
-import './index.css'
+import styles from './index.module.css'
 
 export default function Button() {
   return (
-    <button>Button</button>
+    <button className={styles.button}>Button</button>
   )
 }

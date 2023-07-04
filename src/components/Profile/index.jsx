@@ -1,4 +1,4 @@
-import './index.css'
+import styles from './index.module.css'
 
 export const Profile = () => {
   const imgUrl = 'https://i.imgur.com/7vQD0fPs.jpg';
@@ -8,8 +8,8 @@ export const Profile = () => {
   }
 
   return (
-    <img src="imgUrl" className='avatar'>
-    <p className='sentence'>I am John</p>
-    <p className='sentence'>BirthDay: </p>
+    <img src='imgUrl' className={styles.avatar}>
+    <p className={styles.sentence}>I am John</p>
+    <p className={styles.sentence}>BirthDay: </p>
   )
 }

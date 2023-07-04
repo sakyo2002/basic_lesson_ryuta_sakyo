@@ -1,5 +1,5 @@
-import './index.css'
+import styles from './index.module.css'
 
 export const AlertButton = () => {
-  return <button className='alert-button'>Alert</button>
+  return <button className={styles.button}>Alert</button>
 }
