@@ -1,7 +1,8 @@
 import reactLogo from './assets/react.svg'
 import styles from './App.module.css'
 import { Button } from './components/Button/index.jsx'
-import { Profile } from './components/Profile/index.jsx';
+import { Profile } from './components/Profile/index.jsx'
+import { Country } from './components/Country/index.jsx'
 
 export const App = () => {
   return (
@@ -23,6 +24,10 @@ export const App = () => {
 
       <Profile/>
 
+      <hr />
+
+    <Country info={{imgUrl: 'https://www.civillink.net/sozai/kokki100/pics2654.gif', name: 'アメリカ'}}/>
+ 
     </div>
   )
 };
